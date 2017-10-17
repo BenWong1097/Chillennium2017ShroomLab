@@ -1,0 +1,11 @@
+{
+  "spritemap": {"mob2death": {
+    "start": 0,
+    "end": 1.671837
+  }},
+  "resources": [
+    "loseSound.wav",
+    "loseSound.ogg",
+    "loseSound.mp3"
+  ]
+}

@@ -1,0 +1,2409 @@
+{
+  "canvas-version": 2,
+  "settings": {
+    "className": "Scene1",
+    "sceneWidth": 4400,
+    "sceneHeight": 1800,
+    "generateOnSave": true,
+    "enableStepping": false,
+    "stepWidth": 128,
+    "stepHeight": 127,
+    "lang": "JAVA_SCRIPT",
+    "baseClass": "Phaser.Group",
+    "backgroundColor": [
+      180,
+      180,
+      180
+    ],
+    "gridColor": [
+      200,
+      200,
+      200
+    ],
+    "showGrid": true,
+    "create_after": "this.radius = 1;"
+  },
+  "stateSettings": {
+    "stageBackgroundColor": [
+      0,
+      0,
+      0
+    ],
+    "preloadSpriteId": "",
+    "preloadSprite_direction": 0,
+    "load.pack": []
+  },
+  "world": {
+    "type": "group",
+    "id": "8398e36e-f3f0-4bf8-afe0-7fbd32a1e65b",
+    "info": {
+      "editorName": "Scene1",
+      "setAll": [],
+      "children": [{
+        "type": "group",
+        "id": "07db61df-e617-485d-8e65-3d92db797227",
+        "info": {
+          "editorName": "prefabRoot_Scene1",
+          "setAll": [],
+          "children": [
+            {
+              "type": "tileSprite",
+              "id": "fa4ae831-d595-401a-b407-396745ad929b",
+              "asset": "0",
+              "info": {
+                "editorName": "BG",
+                "editorPublic": true,
+                "scale.x": 1.1289946683730876,
+                "scale.y": 1.0275188997398834,
+                "width": 1712.9580078125,
+                "height": 750
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "b81982f9-6017-48ad-a93c-d7776942f6a3",
+              "asset": "1",
+              "info": {
+                "editorName": "_521",
+                "x": 2603,
+                "y": 1479,
+                "width": 255.199951171875,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "a34069ac-75ed-4b60-922d-aff6d392fca1",
+              "asset": "2",
+              "info": {
+                "editorName": "_331",
+                "x": 2732,
+                "y": 1352,
+                "width": 128,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "6c110e4d-02e4-41b9-9ecf-b0b3a0e61893",
+              "asset": "1",
+              "info": {
+                "editorName": "_51",
+                "x": 1577.800048828125,
+                "y": 1121,
+                "width": 298.39990234375,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "22002e63-080c-4c04-8c7a-069aef7baa54",
+              "asset": "3",
+              "info": {
+                "editorName": "_11311",
+                "x": 250,
+                "y": 1250,
+                "width": 750,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "739f2b55-e7ef-441c-807c-37be10c887fc",
+              "asset": "4",
+              "info": {
+                "editorName": "_221",
+                "x": 1250,
+                "y": 473,
+                "width": 128,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "98a8101b-e643-46c8-8536-c007b6e7d3a7",
+              "asset": "5",
+              "info": {
+                "editorName": "_4",
+                "x": 878,
+                "y": 473,
+                "width": 128,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "03832d06-674f-4593-8434-ef938e707144",
+              "asset": "6",
+              "info": {
+                "editorName": "_2111",
+                "x": 751,
+                "y": 497,
+                "width": 128,
+                "height": 127.79998779296875
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "5b33cab5-2e9c-41ac-8099-7b4dd346c1c0",
+              "asset": "7",
+              "info": {
+                "editorName": "_113121",
+                "x": 1596.199951171875,
+                "y": 512,
+                "width": 156.872314453125,
+                "height": 128,
+                "tilePosition.x": 25
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "413b4271-4f22-4a13-9ccc-c448f398999f",
+              "asset": "3",
+              "info": {
+                "editorName": "_1",
+                "x": 100,
+                "y": 875,
+                "width": 650,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "0e569e68-dfe0-4363-bfa3-41367a12ad65",
+              "asset": "1",
+              "info": {
+                "editorName": "_32",
+                "x": -25,
+                "y": 883.5746917724609,
+                "width": 129,
+                "height": 769.1500396728516
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "d4118f8e-1a34-40e0-8206-bb4c45fc4b4c",
+              "asset": "1",
+              "info": {
+                "editorName": "_52",
+                "x": 309,
+                "y": 1492,
+                "width": 255.199951171875,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "a19c2993-9af0-4502-b8b5-f4ace4ed3600",
+              "asset": "8",
+              "info": {
+                "editorName": "_211111",
+                "x": 1500,
+                "y": 764,
+                "width": 128,
+                "height": 127.79998779296875
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "f4d580b6-13bd-4c3c-acab-abcd69bf50c4",
+              "asset": "8",
+              "info": {
+                "editorName": "_21211",
+                "x": 1500,
+                "y": 891,
+                "width": 128,
+                "height": 127.79998779296875
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "599e26de-4f47-404f-8662-e1b6af264562",
+              "asset": "1",
+              "info": {
+                "editorName": "_5",
+                "x": 1001,
+                "y": 1251,
+                "width": 627.199951171875,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "7df6fc17-78b2-419e-9661-02434742882b",
+              "asset": "8",
+              "info": {
+                "editorName": "_2131",
+                "x": 1500,
+                "y": 1145,
+                "width": 128,
+                "height": 127.79998779296875
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "fc39bb32-40b5-4d6d-9776-0ba5231a6562",
+              "asset": "3",
+              "info": {
+                "editorName": "_11312",
+                "x": 1625,
+                "y": 1100,
+                "width": 250,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "96782700-71f3-4a1e-8486-e534a570d7f3",
+              "asset": "8",
+              "info": {
+                "editorName": "_21121",
+                "x": 1500,
+                "y": 1018,
+                "width": 128,
+                "height": 127.79998779296875
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "f3c1cc6a-b604-4157-a692-2c97a1e1443c",
+              "asset": "3",
+              "info": {
+                "editorName": "_1131",
+                "x": 1000,
+                "y": 1125,
+                "width": 500,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "f5b91121-fbc2-4883-9a6c-74b829bee00b",
+              "asset": "6",
+              "info": {
+                "editorName": "_2",
+                "x": 2075,
+                "y": 875,
+                "width": 128,
+                "height": 750
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "d4e99386-7a54-46b8-b4aa-6f9b3a0d9585",
+              "asset": "3",
+              "info": {
+                "editorName": "_113112",
+                "x": 100,
+                "y": 1525,
+                "width": 2100,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "9380fc36-191c-484b-805c-e17b5a13b773",
+              "asset": "3",
+              "info": {
+                "editorName": "_113122",
+                "x": 1870,
+                "y": 750,
+                "width": 246.823974609375,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "8851599f-7971-4536-a4e2-9367a49a3693",
+              "asset": "4",
+              "info": {
+                "editorName": "_1131221",
+                "x": 1950,
+                "y": 250,
+                "width": 160.719970703125,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "776cafbd-8507-40e9-83cf-b3080cf9e231",
+              "asset": "6",
+              "info": {
+                "editorName": "_311",
+                "x": 2075,
+                "y": 250.99999809265137,
+                "width": 129,
+                "height": 624.0000019073486
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "4025c5e4-8234-48bc-9429-82fba050b267",
+              "asset": "1",
+              "info": {
+                "editorName": "_31",
+                "x": 1500,
+                "width": 129,
+                "height": 129.3838653564453
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "df481d16-5c2f-4a02-bf4b-1d7fc2326d1f",
+              "asset": "1",
+              "info": {
+                "editorName": "_21111",
+                "x": 1500,
+                "y": 128,
+                "width": 128,
+                "height": 127.79998779296875
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "b589774a-54bd-4242-92f7-2faab6761cb1",
+              "asset": "1",
+              "info": {
+                "editorName": "_2121",
+                "x": 1500,
+                "y": 255,
+                "width": 128,
+                "height": 127.79998779296875
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "9b19e437-b599-4c47-9175-15bda415137d",
+              "asset": "1",
+              "info": {
+                "editorName": "_2112",
+                "x": 1500,
+                "y": 382,
+                "width": 128,
+                "height": 127.79998779296875
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "abf37ebb-611e-4fa7-a5dc-911380d2dcde",
+              "asset": "6",
+              "info": {
+                "editorName": "_213",
+                "x": 1500,
+                "y": 509,
+                "width": 128,
+                "height": 127.79998779296875
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "a9561e31-f233-4b7b-b125-a7216552799d",
+              "asset": "8",
+              "info": {
+                "editorName": "_312",
+                "x": 1500,
+                "y": 636,
+                "width": 129,
+                "height": 129.3838653564453
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "eb3da27e-70dc-4d99-ae18-a04723aecb77",
+              "asset": "5",
+              "info": {
+                "editorName": "_41",
+                "x": 1378,
+                "y": 473,
+                "width": 128,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "ec7870bb-8870-4b4a-bc55-e4a6a68b53ea",
+              "asset": "4",
+              "info": {
+                "editorName": "_22",
+                "x": 750,
+                "y": 473,
+                "width": 128,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "f7133ca6-a009-4c7d-8610-edd3de2ae876",
+              "asset": "3",
+              "info": {
+                "editorName": "_113",
+                "x": 875,
+                "y": 850,
+                "width": 500,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "52c09a0f-2db6-4487-bc2e-8ac60829c38a",
+              "asset": "3",
+              "info": {
+                "editorName": "_112",
+                "x": 875,
+                "y": 725,
+                "width": 250,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "696b9b33-0b93-4cf3-a43f-c48b1a4f7cbd",
+              "asset": "6",
+              "info": {
+                "editorName": "_21",
+                "x": 751,
+                "y": 878,
+                "width": 128,
+                "height": 127.79998779296875
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "a32a93b8-7ecd-4b3b-90b2-06b487dd42c3",
+              "asset": "6",
+              "info": {
+                "editorName": "_211",
+                "x": 751,
+                "y": 751,
+                "width": 128,
+                "height": 127.79998779296875
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "28618577-bb56-4914-bdf4-c9c669f2fafd",
+              "asset": "6",
+              "info": {
+                "editorName": "_212",
+                "x": 751,
+                "y": 624,
+                "width": 128,
+                "height": 127.79998779296875
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "6b7aa198-67d7-423f-a652-af07e38512d7",
+              "asset": "5",
+              "info": {
+                "editorName": "_",
+                "x": -25,
+                "y": 875,
+                "width": 128,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "c72198bd-a015-49a7-9a70-2c6a79642427",
+              "asset": "2",
+              "info": {
+                "editorName": "_33",
+                "x": 438,
+                "y": 1365,
+                "width": 128,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "b86f9374-b285-4ff8-9c74-6168d123ddc5",
+              "asset": "2",
+              "info": {
+                "editorName": "_3",
+                "x": 313,
+                "y": 1365,
+                "width": 128,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "c3707dbc-5a4f-43a3-a14c-5ad62d172a5f",
+              "asset": "2",
+              "info": {
+                "editorName": "_34",
+                "x": 2607,
+                "y": 1352,
+                "width": 128,
+                "height": 128
+              }
+            },
+            {
+              "type": "spritesheet",
+              "id": "d39c368b-a98d-45ac-bb34-fc9f864aeb32",
+              "asset": "9",
+              "info": {
+                "editorName": "player",
+                "editorPublic": true,
+                "x": 289,
+                "y": 802,
+                "anchor.x": 0.5,
+                "anchor.y": 0.5,
+                "animations": [
+                  {
+                    "name": "walk",
+                    "frameRate": 4,
+                    "loop": true,
+                    "frames": [
+                      "0",
+                      "1",
+                      "2",
+                      "3"
+                    ]
+                  },
+                  {
+                    "name": "jump",
+                    "frameRate": 1,
+                    "frames": [
+                      "2",
+                      "1"
+                    ]
+                  },
+                  {
+                    "name": "idle",
+                    "frameRate": 1,
+                    "frames": ["0"]
+                  }
+                ],
+                "body": {"type": "ARCADE_RECT"}
+              }
+            },
+            {
+              "type": "group",
+              "id": "8b094f74-13fd-4331-8bd8-0778a3277005",
+              "info": {
+                "editorName": "fruits",
+                "editorPublic": true,
+                "physicsGroup": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "atlas-sprite",
+                    "id": "ad27026c-492e-4b67-94dd-6367e70d7edf",
+                    "asset": "10",
+                    "info": {
+                      "editorName": "fruit7",
+                      "x": 639,
+                      "y": 444
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "a9d1b3d3-6cd6-4f98-9ca1-b697ddf2873f",
+                    "asset": "10",
+                    "info": {
+                      "editorName": "fruit6",
+                      "x": 564,
+                      "y": 444
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "e8ab37da-b87d-40df-ada9-24516d04a0d1",
+                    "asset": "10",
+                    "info": {
+                      "editorName": "fruit5",
+                      "x": 489,
+                      "y": 444
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "86942f8a-02a8-4629-b58a-06ce6d7bdd01",
+                    "asset": "10",
+                    "info": {
+                      "editorName": "fruit4",
+                      "x": 414,
+                      "y": 444
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "f6b15b92-042d-4af7-a94c-2d6ad2734e32",
+                    "asset": "10",
+                    "info": {
+                      "editorName": "fruit3",
+                      "x": 339,
+                      "y": 444
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "b4a6e868-bd99-4901-a544-2a638266e165",
+                    "asset": "10",
+                    "info": {
+                      "editorName": "fruit2",
+                      "x": 264,
+                      "y": 444
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "7c584622-63aa-44dc-a6f1-9a5e3080093a",
+                    "asset": "10",
+                    "info": {
+                      "editorName": "fruit1",
+                      "x": 189,
+                      "y": 444
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "67214d63-3602-4901-b891-76feb17ede3a",
+                    "asset": "10",
+                    "info": {
+                      "editorName": "fruit",
+                      "x": 114,
+                      "y": 444
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "2f36c2bc-6faa-4c1a-a491-f43b4d94370d",
+              "asset": "6",
+              "info": {
+                "editorName": "_3111",
+                "x": 1950,
+                "y": 378,
+                "width": 129,
+                "height": 49.61282539367676
+              }
+            },
+            {
+              "type": "group",
+              "id": "78e4bc9e-05f8-4d50-997c-bc402440aa76",
+              "info": {
+                "editorName": "front1",
+                "setAll": [],
+                "children": []
+              }
+            },
+            {
+              "type": "group",
+              "id": "cc69a8ac-6be9-4cd4-aca1-e0be411b98da",
+              "info": {
+                "editorName": "climbLayer",
+                "editorPublic": true,
+                "physicsGroup": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "atlas-sprite",
+                    "id": "d39f0f37-c72d-45d1-a075-df8e715379de",
+                    "asset": "11",
+                    "info": {
+                      "editorName": "_81",
+                      "x": 2050,
+                      "y": 370,
+                      "scale.y": 9.07285477372398
+                    }
+                  },
+                  {
+                    "type": "tileSprite",
+                    "id": "2bee7a8f-bcf6-419e-97f7-d3a4bc7586e3",
+                    "asset": "11",
+                    "info": {
+                      "editorName": "_84",
+                      "x": -35,
+                      "y": 1749,
+                      "width": 2245.2071533203125,
+                      "height": 201.0968017578125
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "45bf72ff-c418-4c68-84f5-8eda865c78f0",
+                    "asset": "11",
+                    "info": {
+                      "editorName": "_8",
+                      "x": 700,
+                      "y": 475,
+                      "scale.y": 3.1329999418350742
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "be080208-2b79-4b44-93df-73ec9f41cbf9",
+                    "asset": "11",
+                    "info": {
+                      "editorName": "_811",
+                      "x": 1537,
+                      "y": 541,
+                      "scale.y": 4.675093156957015
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "94c24b6c-b4a6-4ea0-aee8-98a0602c7cf5",
+                    "asset": "11",
+                    "info": {
+                      "editorName": "_8111",
+                      "x": 1649,
+                      "y": 514,
+                      "scale.y": 0.9874887569217283
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "20269ec2-8560-4006-91c3-819151094042",
+                    "asset": "11",
+                    "info": {
+                      "editorName": "_812",
+                      "x": 1938,
+                      "y": 247,
+                      "scale.x": 0.28071880830519935,
+                      "scale.y": 1.4426032683062446
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "26ee89bb-6167-434e-8854-79cfba6e1018",
+                    "asset": "11",
+                    "info": {
+                      "editorName": "_8121",
+                      "x": 1610,
+                      "y": 329,
+                      "scale.x": 0.28071880830519935,
+                      "scale.y": 1.4426032683062446
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "fd7e4ba7-3484-4183-9d7a-598b8b5e363d",
+              "asset": "3",
+              "info": {
+                "editorName": "_61111",
+                "x": 2858.4521484375,
+                "y": 1181,
+                "width": 360.91455078125,
+                "height": 128
+              }
+            },
+            {
+              "type": "group",
+              "id": "aec98308-c08d-4611-bfae-d35664bb6772",
+              "info": {
+                "editorName": "mobLayer",
+                "editorPublic": true,
+                "physicsGroup": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "spritesheet",
+                    "id": "4a705a49-bafd-4a10-839d-3435a4280a7d",
+                    "asset": "12",
+                    "info": {
+                      "editorName": "heavyFire",
+                      "x": 1398,
+                      "y": 397,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "animations": [{
+                        "name": "walk",
+                        "frameRate": 4,
+                        "loop": true,
+                        "frames": [
+                          "0",
+                          "1",
+                          "2"
+                        ]
+                      }]
+                    }
+                  },
+                  {
+                    "type": "spritesheet",
+                    "id": "29e32a2d-0d88-4161-8f1a-ee6ef6e2a868",
+                    "asset": "13",
+                    "info": {
+                      "editorName": "spikeWater",
+                      "x": 596,
+                      "y": 785,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "animations": [{
+                        "name": "walk",
+                        "frameRate": 4,
+                        "frames": [
+                          "0",
+                          "1",
+                          "2",
+                          "3",
+                          "4"
+                        ]
+                      }]
+                    }
+                  },
+                  {
+                    "type": "spritesheet",
+                    "id": "958de1a5-49fa-4201-a73a-a28a32689701",
+                    "asset": "14",
+                    "info": {
+                      "editorName": "spikeGrass",
+                      "x": 815,
+                      "y": 1427,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "animations": [{
+                        "name": "walk",
+                        "frameRate": 4,
+                        "frames": [
+                          "0",
+                          "1",
+                          "2",
+                          "3",
+                          "4"
+                        ]
+                      }]
+                    }
+                  },
+                  {
+                    "type": "spritesheet",
+                    "id": "f0c14823-d3fd-4ca2-b809-cef1581fc265",
+                    "asset": "15",
+                    "info": {
+                      "editorName": "heavyGrass",
+                      "x": 882,
+                      "y": 403,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "animations": [{
+                        "name": "walk",
+                        "frameRate": 7,
+                        "loop": true,
+                        "frames": [
+                          "0",
+                          "1",
+                          "2"
+                        ]
+                      }]
+                    }
+                  },
+                  {
+                    "type": "spritesheet",
+                    "id": "f0adced1-6200-4a01-9c8d-5d9152ac362f",
+                    "asset": "16",
+                    "info": {
+                      "editorName": "liquidFire",
+                      "x": 853,
+                      "y": 1105,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "animations": [{
+                        "name": "walk",
+                        "frameRate": 4,
+                        "loop": true,
+                        "frames": [
+                          "0",
+                          "1",
+                          "2",
+                          "3"
+                        ]
+                      }]
+                    }
+                  },
+                  {
+                    "type": "spritesheet",
+                    "id": "d9081a65-a7da-408f-b6d3-85dc67508e87",
+                    "asset": "17",
+                    "info": {
+                      "editorName": "liquidGrass",
+                      "x": 1157,
+                      "y": 1047,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "animations": [{
+                        "name": "walk",
+                        "frameRate": 4,
+                        "loop": true,
+                        "frames": [
+                          "0",
+                          "1",
+                          "2",
+                          "3"
+                        ]
+                      }]
+                    }
+                  },
+                  {
+                    "type": "spritesheet",
+                    "id": "a597d986-3858-4c35-b7fc-efea19bc9845",
+                    "asset": "18",
+                    "info": {
+                      "editorName": "liquidWater",
+                      "x": 1701,
+                      "y": 1457,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "animations": [{
+                        "name": "walk",
+                        "frameRate": 4,
+                        "loop": true,
+                        "frames": [
+                          "0",
+                          "1",
+                          "2",
+                          "3",
+                          "6",
+                          "5"
+                        ]
+                      }]
+                    }
+                  },
+                  {
+                    "type": "spritesheet",
+                    "id": "8c4bb341-7c73-426e-8d7a-e19460dc062a",
+                    "asset": "19",
+                    "info": {
+                      "editorName": "heavyWater",
+                      "x": 1757,
+                      "y": 1027,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "animations": [{
+                        "name": "walk",
+                        "frameRate": 4,
+                        "loop": true,
+                        "frames": [
+                          "0",
+                          "1",
+                          "2"
+                        ]
+                      }]
+                    }
+                  },
+                  {
+                    "type": "spritesheet",
+                    "id": "0f645590-befe-42dc-9a5d-af90ea074d47",
+                    "asset": "20",
+                    "info": {
+                      "editorName": "spikeFire",
+                      "x": 1107,
+                      "y": 1429,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "animations": [{
+                        "name": "walk",
+                        "frameRate": 8,
+                        "loop": true,
+                        "frames": [
+                          "0",
+                          "1",
+                          "2",
+                          "3",
+                          "4"
+                        ]
+                      }]
+                    }
+                  },
+                  {
+                    "type": "spritesheet",
+                    "id": "4e3f3551-0360-440c-8882-88c7ccacc713",
+                    "asset": "12",
+                    "info": {
+                      "editorName": "heavyFire1",
+                      "x": 2569,
+                      "y": 167,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "animations": [{
+                        "name": "walk",
+                        "frameRate": 6,
+                        "loop": true,
+                        "frames": [
+                          "0",
+                          "1",
+                          "2"
+                        ]
+                      }]
+                    }
+                  },
+                  {
+                    "type": "spritesheet",
+                    "id": "26ae7666-8a17-4d2b-b9ee-b922cbbb64fb",
+                    "asset": "9",
+                    "info": {
+                      "editorName": "sciFire",
+                      "x": 2704,
+                      "y": 520,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "animations": [{
+                        "name": "walk",
+                        "frameRate": 5,
+                        "loop": true,
+                        "frames": [
+                          "0",
+                          "1"
+                        ]
+                      }]
+                    }
+                  },
+                  {
+                    "type": "spritesheet",
+                    "id": "11ae3621-f1b7-4c97-ad7b-114ca9fcf6bd",
+                    "asset": "17",
+                    "info": {
+                      "editorName": "liquidGrass1",
+                      "x": 2502,
+                      "y": 885,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "animations": [{
+                        "name": "walk",
+                        "frameRate": 6,
+                        "loop": true,
+                        "frames": [
+                          "0",
+                          "1",
+                          "2",
+                          "3"
+                        ]
+                      }]
+                    }
+                  },
+                  {
+                    "type": "spritesheet",
+                    "id": "f8a58404-064d-4502-a41b-04d4018acf1b",
+                    "asset": "21",
+                    "info": {
+                      "editorName": "sciGrass",
+                      "x": 3075,
+                      "y": 806,
+                      "animations": [{
+                        "name": "walk",
+                        "frameRate": 5,
+                        "loop": true,
+                        "frames": [
+                          "0",
+                          "1"
+                        ]
+                      }]
+                    }
+                  },
+                  {
+                    "type": "spritesheet",
+                    "id": "77df4b92-ea33-49f0-95a4-9fa56ab313da",
+                    "asset": "22",
+                    "info": {
+                      "editorName": "sciWater",
+                      "x": 2978,
+                      "y": 838,
+                      "anchor.x": 0.5,
+                      "anchor.y": 0.5,
+                      "animations": [{
+                        "name": "walk",
+                        "frameRate": 3,
+                        "loop": true,
+                        "frames": [
+                          "0",
+                          "1"
+                        ]
+                      }]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "485aef67-582f-4caf-a598-cde1385c0290",
+              "info": {
+                "editorName": "pipeEntranceLayer",
+                "editorPublic": true,
+                "physicsGroup": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "tileSprite",
+                    "id": "1c02c935-0e94-4351-89ff-d795c84e3b78",
+                    "asset": "23",
+                    "info": {
+                      "editorName": "_7",
+                      "x": 310,
+                      "y": 1375,
+                      "scale.x": 0.41499994006803675,
+                      "scale.y": 1.5090912254612865,
+                      "width": 128,
+                      "height": 99
+                    }
+                  },
+                  {
+                    "type": "tileSprite",
+                    "id": "d651f935-ce01-46c0-8a49-ade5910ab03f",
+                    "asset": "23",
+                    "info": {
+                      "editorName": "_71",
+                      "x": 512,
+                      "y": 1392,
+                      "scale.x": 0.41499994006803675,
+                      "scale.y": 1.5090912254612865,
+                      "width": 128,
+                      "height": 99
+                    }
+                  },
+                  {
+                    "type": "tileSprite",
+                    "id": "d169b10b-76aa-4216-afbb-39ccffcf88ff",
+                    "asset": "23",
+                    "info": {
+                      "editorName": "_72",
+                      "x": 2603,
+                      "y": 1377,
+                      "scale.x": 0.41499994006803675,
+                      "scale.y": 1.5090912254612865,
+                      "width": 128,
+                      "height": 99
+                    }
+                  },
+                  {
+                    "type": "tileSprite",
+                    "id": "501f7e59-f26c-41d9-9b5d-50e7517fd1f4",
+                    "asset": "23",
+                    "info": {
+                      "editorName": "_721",
+                      "x": 2809,
+                      "y": 1376,
+                      "scale.x": 0.41499994006803675,
+                      "scale.y": 1.5090912254612865,
+                      "width": 128,
+                      "height": 99
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "group",
+              "id": "3a9d2627-d4f2-4256-b138-557c9817f275",
+              "info": {
+                "editorName": "breakLayer",
+                "editorPublic": true,
+                "physicsGroup": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "atlas-sprite",
+                    "id": "b38ba66f-be51-4b1e-b5d7-97c22e275d7e",
+                    "asset": "24",
+                    "info": {
+                      "editorName": "Crate2",
+                      "x": 983,
+                      "y": 453
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "9e693426-4380-445c-97c6-0e07b87fab12",
+                    "asset": "24",
+                    "info": {
+                      "editorName": "Crate",
+                      "x": 1124,
+                      "y": 452
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "73490eaf-cf5f-4756-816b-66bab620dddb",
+                    "asset": "24",
+                    "info": {
+                      "editorName": "Crate1",
+                      "x": 1057,
+                      "y": 452
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "f9127a98-13b3-4fe8-8a4f-bac444685cae",
+                    "asset": "24",
+                    "info": {
+                      "editorName": "Crate4",
+                      "x": 3000,
+                      "y": 236
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "0a5b3714-76fe-4c2b-ad39-edb93b6661bc",
+                    "asset": "24",
+                    "info": {
+                      "editorName": "Crate3",
+                      "x": 1200,
+                      "y": 452
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "1326c9b4-ae42-4841-a7d3-91d1ec13a17d",
+                    "asset": "24",
+                    "info": {
+                      "editorName": "Crate5",
+                      "x": 3077,
+                      "y": 236
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "83cdef62-da92-4d17-92f8-c75ce9295647",
+                    "asset": "24",
+                    "info": {
+                      "editorName": "Crate6",
+                      "x": 3000,
+                      "y": 314
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "e9d22154-d35e-4863-a00f-6c68b7c86837",
+                    "asset": "24",
+                    "info": {
+                      "editorName": "Crate7",
+                      "x": 3077,
+                      "y": 314
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "71560348-fda8-47aa-b396-03e0c269045b",
+              "asset": "1",
+              "info": {
+                "editorName": "_313",
+                "x": 1499.4801025390625,
+                "y": -55,
+                "width": 1771.4876708984375,
+                "height": 129.3838653564453
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "a7910381-8ba3-4fb0-bd9c-ae03f00d7c14",
+              "asset": "1",
+              "info": {
+                "editorName": "_211112",
+                "x": 3155,
+                "y": -53.472211837768555,
+                "width": 128,
+                "height": 1361.7714672088623
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "b24a19c7-7d52-4e8f-aa3a-e18488fe9a77",
+              "asset": "3",
+              "info": {
+                "editorName": "_6111",
+                "x": 2888.8544921875,
+                "y": 874,
+                "width": 309.36669921875,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "1d8fab9c-7194-49ea-848c-bb27a88c8378",
+              "asset": "3",
+              "info": {
+                "editorName": "_6",
+                "x": 2062,
+                "y": 250,
+                "width": 937.437255859375,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "42ae455a-ad39-4258-92bd-729e3032d42a",
+              "asset": "3",
+              "info": {
+                "editorName": "_61",
+                "x": 2424.81591796875,
+                "y": 567,
+                "width": 784.22119140625,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "af1fd82a-b46e-487d-be58-a5a3479112f1",
+              "asset": "3",
+              "info": {
+                "editorName": "_61112",
+                "x": 2402,
+                "y": 974,
+                "width": 236.790771484375,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "6d3befdb-07dc-4d14-a47f-7061b769e7a4",
+              "asset": "3",
+              "info": {
+                "editorName": "_611121",
+                "x": 2493,
+                "y": 1243,
+                "width": 239.766845703125,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "7b280cac-1052-4d62-a47c-7508bbf53380",
+              "asset": "5",
+              "info": {
+                "editorName": "_9",
+                "x": 2733,
+                "y": 1243,
+                "width": 126.263916015625,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "96bbe938-4d5c-496f-82bd-3a9e662e3381",
+              "asset": "1",
+              "info": {
+                "editorName": "_21212",
+                "x": 2797,
+                "y": 1243,
+                "width": 484.944580078125,
+                "height": 127.79998779296875
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "1c8e984e-c2ad-4de1-92d3-e0a61cee26ab",
+              "asset": "3",
+              "info": {
+                "editorName": "_6111221",
+                "x": 2429,
+                "y": 1314,
+                "width": 66.65185546875,
+                "height": 59.25
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "a44fb9ab-4998-4ac1-8f86-1b88d7147b5a",
+              "asset": "3",
+              "info": {
+                "editorName": "_611",
+                "x": 2166,
+                "y": 1525,
+                "width": 1344.09326171875,
+                "height": 128
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "07f31f99-56db-4513-a603-586561ce4111",
+              "asset": "3",
+              "info": {
+                "editorName": "_611122",
+                "x": 2638.138916015625,
+                "y": 1042,
+                "width": 66.65185546875,
+                "height": 59.25
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "d2731ca1-4bd7-40a9-99bf-9686ca8c938f",
+              "asset": "3",
+              "info": {
+                "editorName": "_61112211",
+                "x": 2202,
+                "y": 1467,
+                "width": 66.65185546875,
+                "height": 59.25
+              }
+            },
+            {
+              "type": "group",
+              "id": "b9d3369f-4af2-4cc0-aa06-7cfca6d4242f",
+              "info": {
+                "editorName": "collisionLayer",
+                "editorPublic": true,
+                "physicsGroup": true,
+                "setAll": [],
+                "children": [
+                  {
+                    "type": "atlas-sprite",
+                    "id": "3f3ed429-72cb-4d88-8611-f0b55bf793ae",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics",
+                      "y": 875,
+                      "scale.x": 29.88831794316347,
+                      "scale.y": 2.5897582537283967
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "e6b0865a-ef39-4475-9bed-7a32d9c5328b",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics2",
+                      "x": 875,
+                      "y": 850,
+                      "scale.x": 20.11997399130603,
+                      "scale.y": 2.7971191866133025
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "6ff1a350-c2ff-4a87-94aa-625b768140c0",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics3",
+                      "x": 875,
+                      "y": 725,
+                      "scale.x": 10.155173986562271,
+                      "scale.y": 0.7926389528241529
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "a1c22a53-4383-4d49-875a-66e50f452e94",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics4",
+                      "x": 850,
+                      "y": 600,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 15.975999334818018
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "486d14ca-af8d-4c79-8d08-337940b87abd",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics6",
+                      "x": 1500,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 46.3494291255142
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "554a6bf5-b007-48c5-a87b-597fde848072",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics7",
+                      "x": 2076,
+                      "y": 251,
+                      "scale.x": 5.053225563203329,
+                      "scale.y": 53.44263440207107
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "781b07ba-571f-4746-90ef-705702ff2d11",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics8",
+                      "x": 1000,
+                      "y": 1125,
+                      "scale.x": 20.598592296493862
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "0217e62a-20b4-4598-91a8-b7438ad12249",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics9",
+                      "x": 250,
+                      "y": 1250,
+                      "scale.x": 30.608318294483688,
+                      "scale.y": 2.719999881136564
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "688e14cd-e8b4-4e9a-ae49-c13e1689fe87",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics10",
+                      "x": 1000,
+                      "y": 1114,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 6.2897992249929295
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "a17a7a81-2900-4b47-a1bb-df85198f0c41",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics11",
+                      "x": 75,
+                      "y": 900,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 26.13663794636825
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "166dcfb3-9f4a-4670-ab36-1cdbcf2080aa",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics12",
+                      "x": 100,
+                      "y": 1525,
+                      "scale.x": 136.26401477403422,
+                      "scale.y": 2.658876931850389
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "f008c930-ba96-4fbc-98b8-7699c6cb49f1",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics15",
+                      "x": 310,
+                      "y": 1250,
+                      "scale.x": 10.302373648776683,
+                      "scale.y": 5.080204343912098
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "d64ce5eb-40ea-437c-8639-4f4fbd3b9c38",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics16",
+                      "x": 1625,
+                      "y": 1100,
+                      "scale.x": 10.155173986562271
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "c671de18-522c-4917-80b7-4d915726c46c",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics17",
+                      "x": 1869,
+                      "y": 751,
+                      "scale.x": 8.682639670406058,
+                      "scale.y": 2.7971191164781546
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "8eb85cd9-2245-45b3-ab27-f4b7b6c636d8",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics18",
+                      "x": 1622,
+                      "y": 512,
+                      "scale.x": 5.346502506025071,
+                      "scale.y": 2.5897607584456512
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "27350fbd-f82d-4187-a094-718f7c57db7f",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics20",
+                      "x": 1600,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 44.62950495317355
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "1cedf7f6-c60f-481f-9b51-c4e950925b86",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics5",
+                      "x": 750,
+                      "y": 465,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 18.51039848171437
+                    }
+                  },
+                  {
+                    "type": "tileSprite",
+                    "id": "d847db6c-5b67-4f7c-90d9-1e37658e3209",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics13",
+                      "x": -12,
+                      "y": 1740,
+                      "width": 2200.993938446045,
+                      "height": 25
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "af7a88be-0db1-446b-8791-959bd34ba963",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics14",
+                      "scale.x": 0.40925323340443454,
+                      "scale.y": 35.32960006381353
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "2539cdbb-56bd-4250-b2e3-9c7d261a955e",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics21",
+                      "x": 311,
+                      "y": 1359,
+                      "scale.x": 10.242587145278126,
+                      "scale.y": 2.792040487414354
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "fa35a00a-2fd9-4e9f-bed3-29d2487f4845",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics22",
+                      "x": 1251,
+                      "y": 473,
+                      "scale.x": 10.08832064946251,
+                      "scale.y": 3.0188806196059836
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "e64fa241-2832-4a66-bbd2-bdb253593e2c",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics23",
+                      "x": 309,
+                      "y": 1495,
+                      "scale.x": 10.242587145278126,
+                      "scale.y": 2.4587055252701555
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "d92e24b9-29d1-4b58-abd4-3cf1c20606cf",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics1",
+                      "x": 750,
+                      "y": 474,
+                      "scale.x": 10.08832064946251,
+                      "scale.y": 2.8806409348884072
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "758089fa-4af4-4764-89a6-d2b0f31622fd",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics24",
+                      "x": 970,
+                      "y": 465,
+                      "scale.x": 1.4403196782920578,
+                      "scale.y": 5.624000293551054
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "0281f716-2470-42f8-97ad-b031c18c3362",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics25",
+                      "x": 1249,
+                      "y": 467,
+                      "scale.x": 1.4403196782920578,
+                      "scale.y": 5.624000293551054
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "8274c91e-b50d-4d9e-9540-670a4af8782a",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics26",
+                      "x": 250,
+                      "y": 1240,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 3.0530022157356713
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "9886653b-9289-4b03-b8e2-522b579aff2d",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics27",
+                      "x": 1850,
+                      "y": 1091,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 2.0177972143672083
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "e1604bdf-d936-4f76-8ba3-96b4e51a1655",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics19",
+                      "x": 1950,
+                      "y": 250,
+                      "scale.x": 42.13972362641591,
+                      "scale.y": 3.0736010806151706
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "e3481360-deea-4d59-97a1-02a0ce654a24",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics28",
+                      "x": 1867,
+                      "y": 739,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 2.844725876341842
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "6b5f9453-9e50-495d-b07a-849627ddaf4f",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics29",
+                      "x": 1741,
+                      "y": 506,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 2.821578694428623
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "ed4cef8f-42c6-4cb1-822e-3b99aa5c4de1",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics30",
+                      "x": 1950,
+                      "y": 246,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 3.2338004028105716
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "e4e0449b-3183-465d-a0f9-51877f0e2cfe",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics31",
+                      "x": 2196,
+                      "y": 247,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 3.2338004028105716
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "8b470f04-cc11-4a9c-b187-2e511d5cfbb2",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics32",
+                      "x": 1620,
+                      "y": -6,
+                      "scale.x": 62.38420807201584,
+                      "scale.y": 3.0736010806151706
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "97b3b282-d4ce-4592-9835-ad814fc626eb",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics33",
+                      "x": 2771,
+                      "y": 245,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 3.2338004028105716
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "89727314-bca9-42e8-836c-da62242c9d6e",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics34",
+                      "x": 2427,
+                      "y": 563,
+                      "scale.x": 31.291716173454216,
+                      "scale.y": 3.0736010806151706
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "1f946583-63cf-4757-96ff-037ebf60faf3",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics35",
+                      "x": 3156,
+                      "y": -1,
+                      "scale.x": 4.653225538720325,
+                      "scale.y": 50.373702846742155
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "93818993-3067-4cbf-b95b-9f83740ebda1",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics36",
+                      "x": 2602,
+                      "y": 1298,
+                      "scale.x": 10.242587145278126,
+                      "scale.y": 4.601425306434705
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "46e08b2b-40f0-497a-8078-72b7f90142f3",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics37",
+                      "x": 2604,
+                      "y": 1480,
+                      "scale.x": 10.242587145278126,
+                      "scale.y": 2.4587055252701555
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "fd9952af-b28a-432a-8aae-96ec68c41221",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics38",
+                      "x": 2906,
+                      "y": 873,
+                      "scale.x": 12.463424113614938,
+                      "scale.y": 3.0736010806151706
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "3b840a44-a553-4f40-95c8-156d057da1e4",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics39",
+                      "x": 2397,
+                      "y": 972,
+                      "scale.x": 9.643326547702555,
+                      "scale.y": 3.0736010806151706
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "6b644358-0e35-468e-9e37-48e8df0c102c",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics40",
+                      "x": 2858,
+                      "y": 1179,
+                      "scale.x": 12.463424113614938,
+                      "scale.y": 3.0736010806151706
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "8e95a517-b7ad-4433-b240-1ee4e0963aa2",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics41",
+                      "x": 2494,
+                      "y": 1238,
+                      "scale.x": 16.447417959346975,
+                      "scale.y": 3.0736010806151706
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "73e213bb-2478-423e-a669-11669d3173a1",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics42",
+                      "x": 2400,
+                      "y": 965,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 3.7938003735082133
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "15f76724-5ead-4135-8d9d-526c8ff9b421",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics43",
+                      "x": 2609,
+                      "y": 965,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 3.7938003735082133
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "c98c9b5d-cb97-43bd-a72e-6ac2d91a7a89",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics44",
+                      "x": 2887,
+                      "y": 865,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 3.327132891112342
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "34de486e-7fd6-4ef3-8d30-b3163afcbd99",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics45",
+                      "x": 2861,
+                      "y": 1173,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 3.7938003735082133
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "087e4723-f991-43f8-848f-0702b2e1ae98",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics46",
+                      "x": 2493,
+                      "y": 1235,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 3.2604654021446287
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "e21c0057-c125-4285-ae6e-d9cdbc21820e",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics47",
+                      "x": 1594,
+                      "y": 1517,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 2.0177972143672083
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "6567828a-587f-43c3-ab09-68d512021e47",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics48",
+                      "x": 2427,
+                      "y": 556,
+                      "scale.x": 1.1695731980224742,
+                      "scale.y": 3.2338004028105716
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "2d752627-c3cb-4de3-90f9-a056a8e4cefd",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics49",
+                      "x": 2617,
+                      "y": 1031,
+                      "scale.x": 3.476656631408888,
+                      "scale.y": 2.32360112258138
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "b8edb2e0-e7d1-4dd7-ac19-a12bc1e216ff",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics50",
+                      "x": 2429,
+                      "y": 1304,
+                      "scale.x": 3.476656631408888,
+                      "scale.y": 2.32360112258138
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "80de03ed-78c6-4c5f-bb56-8e41bd6f6543",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics51",
+                      "x": 2181,
+                      "y": 1469,
+                      "scale.x": 3.476656631408888,
+                      "scale.y": 2.32360112258138
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "dfdddb2e-cf91-4b12-8cf4-e7be845f478b",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics52",
+                      "x": 3236,
+                      "y": 1148,
+                      "scale.x": 19.42285431373625,
+                      "scale.y": 2.815659020966659
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "ff1998b8-9c49-416c-957b-cbe5a1b77447",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics53",
+                      "x": 3496,
+                      "y": 1159,
+                      "scale.x": 2.9004136230720405,
+                      "scale.y": 17.347446751062563
+                    }
+                  },
+                  {
+                    "type": "atlas-sprite",
+                    "id": "566cb40b-d4e5-49b2-86ed-6a3a55721f72",
+                    "asset": "25",
+                    "info": {
+                      "editorName": "physics54",
+                      "x": 78,
+                      "y": 1478,
+                      "scale.x": 3.476656631408888,
+                      "scale.y": 2.32360112258138
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "ace289a5-5777-4559-a1dc-d5d2951c78bb",
+              "asset": "1",
+              "info": {
+                "editorName": "_321",
+                "x": -126,
+                "y": -3.974400520324707,
+                "width": 129,
+                "height": 1656.81725025177
+              }
+            },
+            {
+              "type": "image",
+              "id": "1dff656a-7e42-466c-847a-0ddde684be61",
+              "asset": "26",
+              "info": {
+                "editorName": "elementTriangle",
+                "x": 403,
+                "y": 587
+              }
+            },
+            {
+              "type": "image",
+              "id": "ac4e5add-7413-403c-a19b-fc07ffda32b9",
+              "asset": "27",
+              "info": {
+                "editorName": "leftRightControls",
+                "x": 5,
+                "y": 588
+              }
+            },
+            {
+              "type": "image",
+              "id": "2b767f8d-4634-4987-9ff4-95745ec797a3",
+              "asset": "28",
+              "info": {
+                "editorName": "jumpControl",
+                "x": 161,
+                "y": 590
+              }
+            },
+            {
+              "type": "image",
+              "id": "370b303a-5783-4ee6-b8b6-260e7292f40a",
+              "asset": "29",
+              "info": {
+                "editorName": "pickupControl",
+                "x": 575,
+                "y": 590
+              }
+            },
+            {
+              "type": "image",
+              "id": "93f0f80c-29d7-40ea-95e4-e96c3a0029b9",
+              "asset": "30",
+              "info": {
+                "editorName": "attackControl",
+                "x": 306,
+                "y": 592
+              }
+            },
+            {
+              "type": "group",
+              "id": "18041cc5-5be4-4025-8d5e-9e0ba2f6da7c",
+              "info": {
+                "editorName": "giantShroom",
+                "editorPublic": true,
+                "physicsGroup": true,
+                "setAll": [],
+                "children": [{
+                  "type": "atlas-sprite",
+                  "id": "afca4539-d2f5-4fda-9410-b7b8db0cb827",
+                  "asset": "31",
+                  "info": {
+                    "editorName": "Tree_",
+                    "x": 3314,
+                    "y": 1222
+                  }
+                }]
+              }
+            },
+            {
+              "type": "image",
+              "id": "e568d98a-b99f-4f77-b08f-ee09dae39139",
+              "asset": "32",
+              "info": {
+                "editorName": "titleScreen",
+                "x": -1814,
+                "y": -12
+              }
+            },
+            {
+              "type": "tileSprite",
+              "id": "d1eb80a8-cb2a-4c6e-8c4a-466b18054a31",
+              "asset": "3",
+              "info": {
+                "editorName": "_611122111",
+                "x": 96,
+                "y": 1480,
+                "width": 66.65185546875,
+                "height": 59.25
+              }
+            }
+          ]
+        }
+      }]
+    }
+  },
+  "type": "GROUP",
+  "asset-table": {
+    "0": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "BG"
+    },
+    "1": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "5"
+    },
+    "2": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "6"
+    },
+    "3": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "3"
+    },
+    "4": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "12"
+    },
+    "5": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "1"
+    },
+    "6": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "4"
+    },
+    "7": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "16"
+    },
+    "8": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "10"
+    },
+    "9": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "sciFire",
+      "sprite": "0"
+    },
+    "10": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "objects",
+      "sprite": "fruit"
+    },
+    "11": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "18"
+    },
+    "12": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "heavyFire",
+      "sprite": "0"
+    },
+    "13": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "spikeWater",
+      "sprite": "0"
+    },
+    "14": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "spikeGrass",
+      "sprite": "0"
+    },
+    "15": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "heavyGrass",
+      "sprite": "0"
+    },
+    "16": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "liquidFire",
+      "sprite": "0"
+    },
+    "17": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "liquidGrass",
+      "sprite": "0"
+    },
+    "18": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "liquidWater",
+      "sprite": "0"
+    },
+    "19": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "heavyWater",
+      "sprite": "0"
+    },
+    "20": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "spikeFire",
+      "sprite": "0"
+    },
+    "21": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "sciGrass",
+      "sprite": "0"
+    },
+    "22": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "sciWater",
+      "sprite": "0"
+    },
+    "23": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "17"
+    },
+    "24": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "objects",
+      "sprite": "Crate"
+    },
+    "25": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "tiles",
+      "sprite": "physics"
+    },
+    "26": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "elementTriangle"
+    },
+    "27": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "leftRightControls"
+    },
+    "28": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "jumpControl"
+    },
+    "29": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "pickupControl"
+    },
+    "30": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "attackControl"
+    },
+    "31": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "objects",
+      "sprite": "Tree_2"
+    },
+    "32": {
+      "file": "WebContent/assets/assets-pack.json",
+      "section": "level",
+      "asset": "titleScreen"
+    }
+  },
+  "prefab-table": {}
+}

@@ -1,0 +1,263 @@
+{
+  "level": [
+    {
+      "type": "image",
+      "key": "BG",
+      "url": "assets/images/tilemapBackground.png",
+      "overwrite": false
+    },
+    {
+      "type": "atlas",
+      "key": "objects",
+      "textureURL": "assets/textures/objects.png",
+      "atlasURL": "assets/textures/objects.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "atlas",
+      "key": "tiles",
+      "textureURL": "assets/textures/tiles.png",
+      "atlasURL": "assets/textures/tiles.json",
+      "format": "TEXTURE_ATLAS_JSON_HASH"
+    },
+    {
+      "type": "script",
+      "key": "tutorialMap",
+      "url": "assets/scenes/tutorialMap.js"
+    },
+    {
+      "type": "spritesheet",
+      "key": "liquidFire",
+      "url": "assets/images/sprites/LiquidFireWalking.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "bullets",
+      "url": "assets/images/sprites/bulletSpriteSheet.png",
+      "frameWidth": 13,
+      "frameHeight": 13,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "shrooms",
+      "url": "assets/images/sprites/shroomSpritesheet.png",
+      "frameWidth": 50,
+      "frameHeight": 41,
+      "frameMax": 12,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "liquidGrass",
+      "url": "assets/images/sprites/LiquidGrassWalking.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "liquidWater",
+      "url": "assets/images/sprites/LiquidWaterWalking.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "sciFire",
+      "url": "assets/images/sprites/sciFire.png",
+      "frameWidth": 45,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "sciGrass",
+      "url": "assets/images/sprites/sciGrass.png",
+      "frameWidth": 46,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "sciWater",
+      "url": "assets/images/sprites/sciWater.png",
+      "frameWidth": 46,
+      "frameHeight": 64,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "audiosprite",
+      "key": "ambiance",
+      "urls": [
+        "assets/ambiance.wav",
+        "assets/ambiance.ogg",
+        "assets/ambiance.mp3"
+      ],
+      "autoDecode": true,
+      "jsonURL": "assets/ambiance.json"
+    },
+    {
+      "type": "spritesheet",
+      "key": "heavyFire",
+      "url": "assets/images/sprites/heavyFire.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "heavyGrass",
+      "url": "assets/images/sprites/heavyGrass.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "heavyWater",
+      "url": "assets/images/sprites/heavyWater.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "spikeFire",
+      "url": "assets/images/sprites/spikeFire.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "spikeGrass",
+      "url": "assets/images/sprites/spikeGrass.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "spritesheet",
+      "key": "spikeWater",
+      "url": "assets/images/sprites/spikeWater.png",
+      "frameWidth": 128,
+      "frameHeight": 128,
+      "frameMax": -1,
+      "margin": 0,
+      "spacing": 0
+    },
+    {
+      "type": "image",
+      "key": "attackControl",
+      "url": "assets/images/attackControl.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "elementTriangle",
+      "url": "assets/images/elementTriangle.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "jumpControl",
+      "url": "assets/images/jumpControl.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "leftRightControls",
+      "url": "assets/images/leftRightControls.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "pickupControl",
+      "url": "assets/images/pickupControl.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "buttons",
+      "url": "assets/images/sprites/buttons.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "titleScreen",
+      "url": "assets/images/titleScreen.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "gameOver",
+      "url": "assets/images/gameOver.png",
+      "overwrite": false
+    },
+    {
+      "type": "image",
+      "key": "winScreen",
+      "url": "assets/images/winScreen.png",
+      "overwrite": false
+    },
+    {
+      "type": "audiosprite",
+      "key": "playerOuch",
+      "urls": [
+        "assets/sounds/playerOuch.wav",
+        "assets/sounds/playerOuch.ogg",
+        "assets/sounds/playerOuch.mp3"
+      ],
+      "autoDecode": true,
+      "jsonURL": "assets/sounds/playerOuch.json"
+    },
+    {
+      "type": "audiosprite",
+      "key": "loseSound",
+      "urls": [
+        "assets/loseSound.wav",
+        "assets/loseSound.ogg",
+        "assets/loseSound.mp3"
+      ],
+      "autoDecode": true,
+      "jsonURL": "assets/loseSound.json"
+    }
+  ],
+  "meta": {
+    "generated": "1508103694148",
+    "app": "Phaser Editor",
+    "url": "http://phasereditor.boniatillo.com",
+    "version": "1.0",
+    "copyright": "Arian Fornaris (c) 2015,2016"
+  }
+}

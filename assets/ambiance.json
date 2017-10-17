@@ -1,0 +1,11 @@
+{
+  "spritemap": {"ambiance": {
+    "start": 0,
+    "end": 4.414694
+  }},
+  "resources": [
+    "ambiance.wav",
+    "ambiance.ogg",
+    "ambiance.mp3"
+  ]
+}
